@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vahidv\\todolist\\TodolistServiceProvider"
+                "Vahidv\\Todolist\\TodolistServiceProvider"
             ]
         }
     },
