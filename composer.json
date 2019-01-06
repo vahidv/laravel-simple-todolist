@@ -1,0 +1,26 @@
+{
+    "name": "vahidv/todolist",
+    "description": "a very simple todolist package",
+    "authors": [
+        {
+            "name": "vahid vahedi",
+            "email": "vahedivahid7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vahidv\\todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vahidv\\Todolist\\": "src/"
+        }
+    }
+}
